@@ -1,13 +1,12 @@
-#Logo-header {
+.Logo-div {
   height: auto;
   width: auto;
-  max-height: 72px;
-  max-width: 250px;
+  min-width: 7%;
+  min-height: 5%;
+  max-height: 7%;
+  max-width: 5%;
 }
 
-.Logo-div {
-  justify-self: start;
-}
 #intro-text {
   font-family: "Graphic-web", Helvetica, sans-serif;
   font-weight: 400;
