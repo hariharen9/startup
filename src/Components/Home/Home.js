@@ -13,7 +13,7 @@ class Home extends Component {
           <Header style={{ alignItems: "flex-start" }}>
             <div className="Logo-div">
               <ReactLogo
-                viewBox="0 0 500 500"
+                viewBox="0 0 200 200"
                 className="Logo"
                 id="Logo-header"
               />
