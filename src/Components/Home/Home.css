@@ -168,3 +168,27 @@
   width: 100%;
   clear: both;
 }
+
+.services-text {
+  font-family: "Graphic-web", Helvetica, sans-serif;
+  font-weight: 300;
+  padding: 2%;
+}
+.accordion-text {
+  color: black;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.accordion-text:hover {
+  color: tomato;
+}
+#panel1d-header,
+#panel2d-header,
+#panel3d-header,
+#panel4d-header {
+  background: white;
+  border: none;
+}

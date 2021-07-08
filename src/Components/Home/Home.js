@@ -1,64 +1,67 @@
 import React, { Component } from "react";
-import { Layout } from "antd";
-
-import { ReactComponent as ReactLogo } from "../../Assets/H_icon.svg";
 import "./Home.css";
-
-const { Header, Footer, Content } = Layout;
-
+import CustomizedAccordions from "../Grid/grid.js";
 class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <Layout>
-          <Header>
-            <div class="float-container">
-              <div class="float-child-left">
-                <div className="Logo-div">
-                  <nav role="navigation">
-                    <div id="menuToggle">
-                      <input type="checkbox" />
+        {/* HEADER OF THE LAYOUT: Consists of two div, one for ham menu and another for Company name. Float is used to make them appear side by side */}
+        <div class="float-container">
+          <div class="float-child-left">
+            <div className="Logo-div">
+              <nav role="navigation">
+                <div id="menuToggle">
+                  <input type="checkbox" />
 
-                      <span></span>
-                      <span></span>
-                      <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
 
-                      <ul id="menu">
-                        <a href="#">
-                          <li>Home</li>
-                        </a>
-                        <a href="#">
-                          <li>Portfolio</li>
-                        </a>
-                        <a href="#">
-                          <li>About</li>
-                        </a>
-                        <a href="#">
-                          <li>Contact Us</li>
-                        </a>
-                      </ul>
-                    </div>
-                  </nav>
+                  <ul id="menu">
+                    <a href="#">
+                      <li>Home</li>
+                    </a>
+                    <a href="#">
+                      <li>Portfolio</li>
+                    </a>
+                    <a href="#">
+                      <li>About</li>
+                    </a>
+                    <a href="#">
+                      <li>Contact Us</li>
+                    </a>
+                  </ul>
                 </div>
-              </div>
-              <div class="float-child-right">
-                <h2 className="companyName">Halcyon</h2>
-              </div>
+              </nav>
             </div>
-          </Header>
-          <Content>
-            <div className="blankSpace"></div>
-            <h1 className="intro-text">
-              <div class="intro-text-div">
-                <span data-index="1">
-                  Make your small business standout<br></br>
-                </span>
-                <span data-index="2">in a crowd of competitors.</span>
-              </div>
-            </h1>
-          </Content>
-          <Footer>footer</Footer>
-        </Layout>
+          </div>
+          <div class="float-child-right">
+            <h2 className="companyName">Halcyon</h2>
+          </div>
+        </div>
+
+        {/* CONTENT: A blank div is created at first to provide a blank space between header and the text. The intro text is then available inside the span*/}
+        <div className="blankSpace"></div>
+        <h1 className="intro-text">
+          <div class="intro-text-div">
+            <span data-index="1">
+              Make your small business standout<br></br>
+            </span>
+            <span data-index="2">in a crowd of competitors.</span>
+          </div>
+        </h1>
+        {/* A grid with two columns is created. Left is a bold text . Right is a ellipsis typography. Ref And.design components*/}
+        <div class="row">
+          <div class="col">
+            <h2 className="services-text">
+              Designs that are effective
+              <br /> <s>or</s> and affordable.
+            </h2>
+          </div>
+          <div class="col">
+            <CustomizedAccordions />
+          </div>
+        </div>
       </div>
     );
   }
