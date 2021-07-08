@@ -1,15 +1,22 @@
 .col {
   padding: 5%;
 }
-
+#row-about {
+  background-color: black;
+}
 .about-text {
+  color: white;
   font-family: "Graphic-web", Helvetica, sans-serif;
   font-weight: 600;
 }
 .above-content {
+  color: gray;
   font-family: "Graphic-web", Helvetica, sans-serif;
   font-weight: 300;
   text-align: left;
+}
+p {
+  color: gray;
 }
 .about-text {
   box-shadow: inset 0 -0.2em 0 rgb(131, 222, 255);
@@ -21,15 +28,17 @@
 }
 
 .sub-heading {
+  color: white;
   font-family: "Graphic-web", Helvetica, sans-serif;
   font-weight: 700;
 }
 .sub-content {
+  color: white;
   font-family: "Graphic-web", Helvetica, sans-serif;
   font-weight: 500;
 }
 .sub-content {
-  color: black;
+  color: gray;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -ms-transition: color 0.25s;
