@@ -5,7 +5,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+.banner-page {
+  background-color: black;
+  background: black;
+  text-align: center;
+}
+
 .banner {
+  text-align: center;
+
   margin: 0;
 
   position: absolute;
@@ -17,6 +25,10 @@
   align-items: center;
   color: #000;
   background-color: #000;
+}
+
+.button-custom {
+  text-align: center;
 }
 
 .banner video {
