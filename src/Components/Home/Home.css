@@ -56,7 +56,7 @@
 }
 
 #menuToggle a:hover {
-  color: tomato;
+  color: #2596be;
 }
 
 #menuToggle input {
@@ -111,7 +111,7 @@
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: black;
 }
 
 /*
@@ -183,7 +183,7 @@
   transition: color 0.25s;
 }
 .accordion-text:hover {
-  color: tomato;
+  color: #2596be;
 }
 #panel1d-header,
 #panel2d-header,

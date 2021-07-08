@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Home.css";
 import CustomizedAccordions from "../Grid/grid.js";
+import About from "../About/About.js";
+
 class Home extends Component {
   render() {
     return (
@@ -50,7 +52,7 @@ class Home extends Component {
             </h2>
           </div>
         </h1>
-        {/* A grid with two columns is created. Left is a bold text . Right is a ellipsis typography. Ref And.design components*/}
+        {/* A grid with two columns is created. Left is a bold text . Right is a collapsing text. Ref And.design components*/}
         <div class="row">
           <div class="col">
             <h2 className="services-text">
@@ -62,6 +64,7 @@ class Home extends Component {
             <CustomizedAccordions />
           </div>
         </div>
+        <About />
       </div>
     );
   }
