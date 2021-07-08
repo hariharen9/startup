@@ -10,8 +10,10 @@ function Banner() {
           <source src={banner} type="video/mp4" />
         </video>
         <h2>HALCYON</h2>
-        <h3>We make Websites, Mobile apps, Logos and Designs</h3>
       </div>
+      <h3 className="black font-weight-bold text-uppercase text-dark">
+        We make Websites, Mobile apps, Logos and Designs
+      </h3>
       <button>View our website!</button>
     </div>
   );
