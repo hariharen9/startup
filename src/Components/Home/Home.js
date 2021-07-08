@@ -43,11 +43,11 @@ class Home extends Component {
         {/* CONTENT: A blank div is created at first to provide a blank space between header and the text. The intro text is then available inside the span*/}
         <div className="blankSpace"></div>
         <h1 className="intro-text">
-          <div class="intro-text-div">
-            <span data-index="1">
-              Make your small business standout<br></br>
-            </span>
-            <span data-index="2">in a crowd of competitors.</span>
+          <div className="text-left">
+            <h2>
+              Make your small business standout
+              <br /> <span>in a crowd of competitors.</span>
+            </h2>
           </div>
         </h1>
         {/* A grid with two columns is created. Left is a bold text . Right is a ellipsis typography. Ref And.design components*/}
