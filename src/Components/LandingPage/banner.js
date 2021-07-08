@@ -9,11 +9,12 @@ function Banner() {
         <video id="background-video" autoPlay loop muted>
           <source src={banner} type="video/mp4" />
         </video>
-        <h2>HALCYON</h2>
+        <h2 className="responsive">HALCYON</h2>
       </div>
       <h3 className="black font-weight-bold text-uppercase text-dark">
         We make Websites, Mobile apps, Logos and Designs
       </h3>
+
       <button className="button-custom">View our website!</button>
     </div>
   );
