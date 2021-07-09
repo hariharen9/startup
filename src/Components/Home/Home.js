@@ -5,7 +5,7 @@ import About from "../About/About.js";
 import Contact from "../Contact/Contact.js";
 import Footer from "../Footer/Footer";
 import Cards from "../Cards/Cards";
-
+import Clients from "../Clients/Clients";
 class Home extends Component {
   render() {
     return (
@@ -69,7 +69,7 @@ class Home extends Component {
         </div>
         <About />
         <Cards />
-
+        <Clients />
         <Contact />
         <Footer />
       </div>

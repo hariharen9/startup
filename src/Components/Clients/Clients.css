@@ -1,0 +1,21 @@
+#clients-div {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.clients-text {
+  color: rgba(124, 124, 124, 0.616);
+  font-family: "Graphic-web", Helvetica, sans-serif;
+  font-weight: 400;
+}
+.clients-text {
+  color: rgba(124, 124, 124, 0.616);
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.clients-text:hover {
+  color: black;
+}
