@@ -83,8 +83,8 @@ body {
   right: 0;
   top: 0;
   transform-origin: center;
-  trsnsform: scale(1) translateZ(0);
-  transition: filter 500ms linear, transform 500ms linear;
+  transform: scale(1) translateZ(0);
+  transition: filter 100ms linear, transform 100ms linear;
 }
 
 .card:hover .card__background {
