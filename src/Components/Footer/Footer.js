@@ -22,7 +22,7 @@ export default function Footer() {
         <h3 className="footer-sub-content">work@h.com</h3>
 
         <h3 className="footer-sub-heading">Contact Us</h3>
-        <h3 className="footer-sub-content">c@h.com</h3>
+        <h3 className="footer-sub-content">hariharen9999@gmail.com</h3>
       </div>
       <div class="col">
         <h2 className="footer-text">Contact</h2>

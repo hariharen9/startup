@@ -8,8 +8,8 @@ import Typography from "@material-ui/core/Typography";
 
 const Accordion = withStyles({
   root: {
-    font: "Graphic-web",
-
+    font: "Poppins",
+    fontSize: "72px",
     border: "0px solid rgba(0, 0, 0, .125)",
     boxShadow: "none",
     "&:not(:last-child)": {
@@ -37,7 +37,7 @@ const AccordionSummary = withStyles({
   },
   content: {
     "&$expanded": {
-      margin: "12px 0",
+      margin: "20px 0",
     },
   },
   expanded: {},
@@ -90,7 +90,7 @@ export default function CustomizedAccordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography align="left">
+          <Typography align="left" className="interior-acc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
             dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada

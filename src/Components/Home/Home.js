@@ -6,6 +6,9 @@ import Contact from "../Contact/Contact.js";
 import Footer from "../Footer/Footer";
 import Cards from "../Cards/Cards";
 import Clients from "../Clients/Clients";
+import BgVideo from "../../Assets/video.mp4";
+import { HashLink as Link } from "react-router-hash-link";
+
 class Home extends Component {
   render() {
     return (
@@ -23,12 +26,12 @@ class Home extends Component {
                   <span></span>
 
                   <ul id="menu">
-                    <a href="#">
+                    <Link to="/">
                       <li>Home</li>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="/portfolio">
                       <li>Portfolio</li>
-                    </a>
+                    </Link>
                     <a href="#">
                       <li>About</li>
                     </a>
@@ -47,14 +50,17 @@ class Home extends Component {
 
         {/* CONTENT: A blank div is created at first to provide a blank space between header and the text. The intro text is then available inside the span*/}
         <div className="blankSpace"></div>
-        <h1 className="intro-text">
-          <div className="text-left">
-            <h2>
-              Make your small business standout
-              <br /> <span>in a crowd of competitors.</span>
-            </h2>
-          </div>
-        </h1>
+
+        <div className="text-left">
+          <h1 className="intro-text">
+            Make your small business standout
+            <br /> in a crowd of competitors.
+          </h1>
+        </div>
+
+        <video controls autoPlay loop muted>
+          <source src={BgVideo} type="video/mp4" />
+        </video>
         {/* A grid with two columns is created. Left is a bold text . Right is a collapsing text. Ref And.design components*/}
         <div class="row">
           <div class="col">
@@ -63,7 +69,7 @@ class Home extends Component {
               <br /> <s>or</s> and affordable.
             </h2>
           </div>
-          <div class="col">
+          <div class="col" id="accorditions">
             <CustomizedAccordions />
           </div>
         </div>

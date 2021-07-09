@@ -11,11 +11,10 @@
   color: rgb(243, 240, 255);
   font-family: "Graphic-web", Helvetica, sans-serif;
   font-weight: 600;
-}
-.footer-sub-content {
   box-shadow: inset 0 -0.1em 0 rgb(131, 222, 255);
   transition: box-shadow 0.7s ease;
 }
+
 .footer-sub-heading,
 .footer-text {
   color: gray;
