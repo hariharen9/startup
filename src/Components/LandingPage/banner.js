@@ -1,8 +1,7 @@
 import "./banner.css";
 import banner from "./banner.mp4";
-import Home from "../Home/Home.js";
-import { withRouter } from "react-router-dom";
 import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
+import { Link } from "react-router-dom";
 function Banner() {
   return (
     <div>
@@ -23,7 +22,11 @@ function Banner() {
         </div>
       </div>
       {/* <div className="button-div"> */}
-      <button className="button-custom">Continue to Website</button>
+
+      <Link to="/home">
+        <button className="button-custom">Continue to Website </button>{" "}
+      </Link>
+
       {/* </div> */}
     </div>
   );
