@@ -13,7 +13,7 @@ export default function About() {
           laborum et dolorum fuga.
         </p>
       </div>
-      <div class="col">
+      <div class="col clients-and-projects center">
         <div class="row">
           <h3 className="sub-heading">Clients</h3>
           <h3 className="sub-content">100+</h3>

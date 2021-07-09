@@ -21,13 +21,10 @@ function Banner() {
           </h5>
         </div>
       </div>
-      {/* <div className="button-div"> */}
 
       <Link to="/home">
         <button className="button-custom">Continue to Website </button>{" "}
       </Link>
-
-      {/* </div> */}
     </div>
   );
 }

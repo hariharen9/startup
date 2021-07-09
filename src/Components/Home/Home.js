@@ -4,6 +4,8 @@ import CustomizedAccordions from "../Grid/grid.js";
 import About from "../About/About.js";
 import Contact from "../Contact/Contact.js";
 import Footer from "../Footer/Footer";
+import Cards from "../Cards/Cards";
+import Carousel from "../Carousal/Carousal";
 class Home extends Component {
   render() {
     return (
@@ -66,6 +68,8 @@ class Home extends Component {
           </div>
         </div>
         <About />
+        <Cards />
+        <Carousel />
         <Contact />
         <Footer />
       </div>
