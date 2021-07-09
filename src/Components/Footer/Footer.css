@@ -1,0 +1,33 @@
+.col {
+  padding: 5%;
+}
+#row-footer {
+  background-color: #353935;
+}
+.footer-content {
+  color: rgb(243, 240, 255);
+}
+.footer-sub-content {
+  color: rgb(243, 240, 255);
+  font-family: "Graphic-web", Helvetica, sans-serif;
+  font-weight: 600;
+}
+.footer-sub-content {
+  box-shadow: inset 0 -0.1em 0 rgb(131, 222, 255);
+  transition: box-shadow 0.7s ease;
+}
+.footer-sub-heading,
+.footer-text {
+  color: gray;
+}
+.footer-sub-content:hover {
+  box-shadow: inset 0 -0.6em 0 rgb(131, 222, 255);
+}
+.footer-content-phno {
+  color: rgb(243, 240, 255);
+}
+.blankSpace-footer {
+  height: 50px;
+  width: 100%;
+  clear: both;
+}

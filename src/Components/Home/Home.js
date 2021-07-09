@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./Home.css";
 import CustomizedAccordions from "../Grid/grid.js";
 import About from "../About/About.js";
-
+import Contact from "../Contact/Contact.js";
+import Footer from "../Footer/Footer";
 class Home extends Component {
   render() {
     return (
@@ -65,6 +66,8 @@ class Home extends Component {
           </div>
         </div>
         <About />
+        <Contact />
+        <Footer />
       </div>
     );
   }
