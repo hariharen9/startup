@@ -7,13 +7,14 @@ import Footer from "../Footer/Footer";
 import Cards from "../Cards/Cards";
 import Clients from "../Clients/Clients";
 import BgVideo from "../../Assets/video.mp4";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 
 class Home extends Component {
   render() {
     return (
       <div className="Home">
         {/* HEADER OF THE LAYOUT: Consists of two div, one for ham menu and another for Company name. Float is used to make them appear side by side */}
+
         <div class="float-container">
           <div class="float-child-left">
             <div className="Logo-div">
@@ -26,18 +27,20 @@ class Home extends Component {
                   <span></span>
 
                   <ul id="menu">
-                    <Link to="/">
+                    <HashLink to="/home#top">
                       <li>Home</li>
-                    </Link>
-                    <Link to="/portfolio">
-                      <li>Portfolio</li>
-                    </Link>
-                    <a href="#">
+                    </HashLink>
+
+                    <HashLink to="/home#About">
                       <li>About</li>
-                    </a>
-                    <a href="#">
+                    </HashLink>
+
+                    <HashLink to="/home#Portfolio">
+                      <li>Portfolio</li>
+                    </HashLink>
+                    <HashLink to="/home#Contact">
                       <li>Contact Us</li>
-                    </a>
+                    </HashLink>
                   </ul>
                 </div>
               </nav>
@@ -53,8 +56,7 @@ class Home extends Component {
 
         <div className="text-left">
           <h1 className="intro-text">
-            Make your small business standout
-            <br /> in a crowd of competitors.
+            Make your small business standout in a crowd of competitors.
           </h1>
         </div>
 
@@ -74,10 +76,18 @@ class Home extends Component {
           </div>
         </div>
         <Clients />
-        <About />
-        <Cards />
+        <section id="About">
+          <About />
+        </section>
 
-        <Contact />
+        <section id="Portfolio">
+          <Cards />
+        </section>
+
+        <section id="Contact">
+          <Contact />
+        </section>
+
         <Footer />
       </div>
     );

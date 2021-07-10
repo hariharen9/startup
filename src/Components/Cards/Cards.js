@@ -10,7 +10,10 @@ class Cards extends Component {
         </div>
         <section class="hero-section">
           <div class="card-grid">
-            <a class="card" href="#">
+            <a
+              class="card"
+              href="https://play.google.com/store/apps/details?id=com.trouvaille.angst"
+            >
               <div
                 class="card__background"
                 style={{
@@ -20,10 +23,13 @@ class Cards extends Component {
               ></div>
               <div class="card__content">
                 <p class="card__category"></p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <h3 class="card__heading">Angst</h3>
               </div>
             </a>
-            <a class="card" href="#">
+            <a
+              class="card"
+              href="https://play.google.com/store/apps/details?id=com.hariharen.cashtrack"
+            >
               <div
                 class="card__background"
                 style={{
@@ -33,7 +39,7 @@ class Cards extends Component {
               ></div>
               <div class="card__content">
                 <p class="card__category"></p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <h3 class="card__heading">Cash Track</h3>
               </div>
             </a>
             <a class="card" href="#">
@@ -46,7 +52,7 @@ class Cards extends Component {
               ></div>
               <div class="card__content">
                 <p class="card__category"></p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <h3 class="card__heading">Website-1</h3>
               </div>
             </a>
             <a class="card" href="#">
@@ -59,7 +65,7 @@ class Cards extends Component {
               ></div>
               <div class="card__content">
                 <p class="card__category"></p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <h3 class="card__heading">Website-2</h3>
               </div>
             </a>
             <a class="card" href="#">
@@ -72,7 +78,7 @@ class Cards extends Component {
               ></div>
               <div class="card__content">
                 <p class="card__category"></p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <h3 class="card__heading">Logos</h3>
               </div>
             </a>
             <a class="card" href="#">
@@ -85,7 +91,7 @@ class Cards extends Component {
               ></div>
               <div class="card__content">
                 <p class="card__category"></p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <h3 class="card__heading">Logos</h3>
               </div>
             </a>
             <a class="card" href="#">
@@ -98,7 +104,7 @@ class Cards extends Component {
               ></div>
               <div class="card__content">
                 <p class="card__category"></p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <h3 class="card__heading">Logos</h3>
               </div>
             </a>
             <a class="card" href="#">
@@ -111,7 +117,7 @@ class Cards extends Component {
               ></div>
               <div class="card__content">
                 <p class="card__category"></p>
-                <h3 class="card__heading">Example Card Heading</h3>
+                <h3 class="card__heading">Logos</h3>
               </div>
             </a>
           </div>

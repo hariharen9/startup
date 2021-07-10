@@ -21,6 +21,7 @@
   }
 }
 .about-text {
+  letter-spacing: 2px;
   width: fit-content;
   color: white;
   font-family: "Poppins", Helvetica, sans-serif;

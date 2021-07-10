@@ -2,13 +2,14 @@ import "./banner.css";
 import banner from "./banner.mp4";
 import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
 import { Link } from "react-router-dom";
+import video from "../../Assets/video.mp4";
 function Banner() {
   return (
     <div>
       <div className="banner-page">
         <div className="banner">
           <video id="background-video" autoPlay loop muted>
-            <source src={banner} type="video/mp4" />
+            <source src={video} type="video/mp4" />
           </video>
           <h2 className="responsive">HALCYON</h2>
           <h3 className="sub-text">
