@@ -73,9 +73,10 @@ class Home extends Component {
             <CustomizedAccordions />
           </div>
         </div>
+        <Clients />
         <About />
         <Cards />
-        <Clients />
+
         <Contact />
         <Footer />
       </div>

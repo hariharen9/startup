@@ -17,7 +17,7 @@ export default function Footer() {
           <br />
         </p>
       </div>
-      <div class="col">
+      <div class="col" id="work-with-us">
         <h3 className="footer-sub-heading">Work with Us</h3>
         <h3 className="footer-sub-content">work@h.com</h3>
 

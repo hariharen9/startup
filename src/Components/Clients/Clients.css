@@ -1,12 +1,23 @@
 #clients-div {
-  padding-left: 0%;
-  padding-right: 0%;
+  padding: 2%;
 }
-
+#clients-div-container {
+  padding-top: 3%;
+  padding-left: 25%;
+  padding-bottom: 3%;
+}
 .clients-text {
   color: rgba(124, 124, 124, 0.616);
-  font-family: "Graphic-web", Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
   font-weight: 400;
+  font-size: 200%;
+  letter-spacing: 5px;
+}
+@media (max-width: 400px) {
+  .clients-text {
+    font-size: 100%;
+    letter-spacing: 3px;
+  }
 }
 .clients-text {
   color: rgba(124, 124, 124, 0.616);
@@ -14,7 +25,7 @@
   -moz-transition: color 0.25s;
   -ms-transition: color 0.25s;
   -o-transition: color 0.25s;
-  transition: color 0.25s;
+  transition: color 0.5s;
 }
 .clients-text:hover {
   color: black;

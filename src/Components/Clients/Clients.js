@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Clients.css";
 export default function Clients() {
   return (
-    <div class="container">
+    <div class="container" id="clients-div-container">
       <div class="row">
         <div class="col" id="clients-div">
           <h5 className="clients-text">Clients</h5>
@@ -15,13 +15,13 @@ export default function Clients() {
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col" id="clients-div">
           <h5 className="clients-text">Clients</h5>
         </div>
-        <div class="col">
+        <div class="col" id="clients-div">
           <h5 className="clients-text">Clients</h5>
         </div>
-        <div class="col">
+        <div class="col" id="clients-div">
           <h5 className="clients-text">Clients</h5>
         </div>
       </div>
