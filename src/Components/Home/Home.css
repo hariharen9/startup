@@ -54,6 +54,7 @@ h1 {
   font-family: "Poppins", Helvetica, sans-serif;
   font-weight: 600;
   text-align: center;
+  padding-left: 20%;
 }
 /* HAMBURGER*/
 #menuToggle {

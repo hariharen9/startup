@@ -8,6 +8,7 @@ import Cards from "../Cards/Cards";
 import Clients from "../Clients/Clients";
 import BgVideo from "../../Assets/video.mp4";
 import { HashLink } from "react-router-hash-link";
+import Mailchimp from "../Mailchimp/Mailchimp";
 
 class Home extends Component {
   render() {
@@ -85,7 +86,8 @@ class Home extends Component {
         </section>
 
         <section id="Contact">
-          <Contact />
+          {/* <Contact /> */}
+          <Mailchimp />
         </section>
 
         <Footer />
