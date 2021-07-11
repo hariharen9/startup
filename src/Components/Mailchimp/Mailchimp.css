@@ -1,0 +1,11 @@
+#mc-embedded-subscribe-form {
+  align-self: center;
+  align-content: center;
+  padding: 3%;
+}
+.asterisk {
+  color: rgb(128, 0, 0);
+}
+.indicates-req {
+  font-size: 100%;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./Mailchimp.css";
 export default function Mailchimp() {
   return (
     <div id="mc_embed_signup">
@@ -13,9 +13,10 @@ export default function Mailchimp() {
         novalidate
       >
         <div id="mc_embed_signup_scroll">
-          <h2>How can we reach y0u?</h2>
+          <h2>How can we reach you?</h2>
           <div class="indicates-required">
-            <span class="asterisk">*</span> indicates required
+            <span class="asterisk">*</span>{" "}
+            <h5 className="indicates-req">indicates required</h5>
           </div>
           <div class="mc-field-group">
             <label for="mce-NAME">
