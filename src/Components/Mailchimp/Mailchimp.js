@@ -14,48 +14,37 @@ export default function Mailchimp() {
       >
         <div id="mc_embed_signup_scroll">
           <h2>How can we reach you?</h2>
-          <div class="indicates-required">
-            <span class="asterisk">*</span>{" "}
-            <h5 className="indicates-req">indicates required</h5>
-          </div>
+
           <div class="mc-field-group">
-            <label for="mce-NAME">
-              Name <span class="asterisk">*</span>{" "}
-            </label>
             <input
               type="text"
-              value=""
               name="NAME"
-              class="required"
               id="mce-NAME"
+              autocomplete="off"
+              placeholder="NAME"
             />
           </div>
           <div class="mc-field-group">
-            <label for="mce-EMAIL">
-              Email <span class="asterisk">*</span>
-            </label>
             <input
               type="email"
-              value=""
               name="EMAIL"
-              class="required email"
               id="mce-EMAIL"
+              autocomplete="off"
+              placeholder="EMAIL"
             />
           </div>
           <div class="mc-field-group">
-            <label for="mce-PHONE">
-              Phone <span class="asterisk">*</span>
-            </label>
             <input
               type="text"
-              value=""
               name="PHONE"
-              class="required"
               id="mce-PHONE"
+              autocomplete="off"
+              placeholder="PHONE NO."
             />
           </div>
           <div class="mc-field-group input-group">
-            <strong>What can we do for you? </strong>
+            <strong>What can we do for you? &nbsp;</strong>
+
             <ul>
               <li>
                 <input
@@ -64,7 +53,7 @@ export default function Mailchimp() {
                   name="group[54133][1]"
                   id="mce-group[54133]-54133-0"
                 />
-                <label for="mce-group[54133]-54133-0">Websites</label>
+                <label for="mce-group[54133]-54133-0">&nbsp; Websites</label>
               </li>
               <li>
                 <input
@@ -73,7 +62,7 @@ export default function Mailchimp() {
                   name="group[54133][2]"
                   id="mce-group[54133]-54133-1"
                 />
-                <label for="mce-group[54133]-54133-1">Logos</label>
+                <label for="mce-group[54133]-54133-1">&nbsp; Logos</label>
               </li>
               <li>
                 <input
@@ -82,7 +71,7 @@ export default function Mailchimp() {
                   name="group[54133][4]"
                   id="mce-group[54133]-54133-2"
                 />
-                <label for="mce-group[54133]-54133-2">Mobile Apps</label>
+                <label for="mce-group[54133]-54133-2">&nbsp; Mobile Apps</label>
               </li>
               <li>
                 <input
@@ -91,21 +80,15 @@ export default function Mailchimp() {
                   name="group[54133][8]"
                   id="mce-group[54133]-54133-3"
                 />
-                <label for="mce-group[54133]-54133-3">UI/UX Designs</label>
+                <label for="mce-group[54133]-54133-3">
+                  &nbsp; UI/UX Designs
+                </label>
               </li>
             </ul>
           </div>
           <div id="mce-responses" class="clear">
-            <div
-              class="response"
-              id="mce-error-response"
-              style={{ display: "none" }}
-            ></div>
-            <div
-              class="response"
-              id="mce-success-response"
-              style={{ display: "none" }}
-            ></div>
+            <div class="response" id="mce-error-response"></div>
+            <div class="response" id="mce-success-response"></div>
           </div>
 
           <div
