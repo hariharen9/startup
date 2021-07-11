@@ -1,9 +1,5 @@
-#mc-embedded-subscribe-form {
-  align-self: center;
-  align-content: center;
-  padding: 3%;
-}
 #mc_embed_signup {
+  padding: 3%;
   background: #fff;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
@@ -19,18 +15,32 @@ ul {
 #mce-PHONE,
 #mce-EMAIL,
 #mce-NAME {
+  padding: 0.5%;
   margin: 1%;
   border: 2px;
-  border-color: rgb(72, 100, 255);
+  border-color: rgb(0, 0, 0);
   border-radius: 5px;
 }
 
 #mc_embed_signup {
   padding-left: 40%;
 }
-.asterisk {
-  color: rgb(128, 0, 0);
+
+#mc-embedded-subscribe {
+  color: white;
+  border-radius: 10px;
+  background: gray;
+  transition: background 0.25s ease-in-out;
 }
-.indicates-req {
-  font-size: 100%;
+#mc-embedded-subscribe:hover {
+  color: white;
+  background-color: black;
+}
+#Form-text {
+  font-family: "Poppins", Helvetica, sans-serif;
+
+  font-weight: 900;
+}
+input {
+  padding: 1%;
 }

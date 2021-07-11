@@ -13,7 +13,7 @@ export default function Mailchimp() {
         novalidate
       >
         <div id="mc_embed_signup_scroll">
-          <h2>How can we reach you?</h2>
+          <h2 id="Form-text">How can we reach you?</h2>
 
           <div class="mc-field-group">
             <input
@@ -42,12 +42,13 @@ export default function Mailchimp() {
               placeholder="PHONE NO."
             />
           </div>
-          <div class="mc-field-group input-group">
-            <strong>What can we do for you? &nbsp;</strong>
 
+          <h2 id="Form-text">What can we do for you? &nbsp;</h2>
+          <div>
             <ul>
               <li>
                 <input
+                  className="check-input"
                   type="checkbox"
                   value="1"
                   name="group[54133][1]"
@@ -86,6 +87,7 @@ export default function Mailchimp() {
               </li>
             </ul>
           </div>
+
           <div id="mce-responses" class="clear">
             <div class="response" id="mce-error-response"></div>
             <div class="response" id="mce-success-response"></div>
@@ -105,7 +107,7 @@ export default function Mailchimp() {
           <div class="clear">
             <input
               type="submit"
-              value="Subscribe"
+              value="  Subscribe  "
               name="subscribe"
               id="mc-embedded-subscribe"
               class="button"
