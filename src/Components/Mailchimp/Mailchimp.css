@@ -29,17 +29,23 @@ ul {
 #mc-embedded-subscribe {
   color: white;
   border-radius: 10px;
-  background: gray;
+  background: black;
   transition: background 0.25s ease-in-out;
 }
 #mc-embedded-subscribe:hover {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: rgb(199, 198, 198);
 }
 #Form-text {
   font-family: "Poppins", Helvetica, sans-serif;
-
+  font-size: x-large;
   font-weight: 900;
+}
+#Form-text:hover {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: 900;
+  color: rgb(151, 151, 151);
 }
 input {
   padding: 1%;

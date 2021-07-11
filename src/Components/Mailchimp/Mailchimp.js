@@ -14,7 +14,6 @@ export default function Mailchimp() {
       >
         <div id="mc_embed_signup_scroll">
           <h2 id="Form-text">How can we reach you?</h2>
-
           <div class="mc-field-group">
             <input
               type="text"
@@ -42,7 +41,7 @@ export default function Mailchimp() {
               placeholder="PHONE NO."
             />
           </div>
-
+          &nbsp;
           <h2 id="Form-text">What can we do for you? &nbsp;</h2>
           <div>
             <ul>
@@ -87,12 +86,10 @@ export default function Mailchimp() {
               </li>
             </ul>
           </div>
-
           <div id="mce-responses" class="clear">
             <div class="response" id="mce-error-response"></div>
             <div class="response" id="mce-success-response"></div>
           </div>
-
           <div
             style={{ position: "absolute", left: "-5000px" }}
             aria-hidden="true"
@@ -104,6 +101,7 @@ export default function Mailchimp() {
               value=""
             />
           </div>
+          &nbsp;
           <div class="clear">
             <input
               type="submit"
