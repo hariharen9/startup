@@ -19,10 +19,14 @@ export default function Footer() {
       </div>
       <div class="col" id="work-with-us">
         <h3 className="footer-sub-heading">Work with Us</h3>
-        <h3 className="footer-sub-content">work@halcyon-netherlands.com</h3>
+        <h3 className="footer-sub-content">
+          &nbsp; work@halcyon-netherlands.com &nbsp;
+        </h3>
 
         <h3 className="footer-sub-heading">Contact Us</h3>
-        <h3 className="footer-sub-content">hey@halcyon-netherlands.com</h3>
+        <h3 className="footer-sub-content">
+          &nbsp; hey@halcyon-netherlands.com&nbsp;
+        </h3>
       </div>
       <div class="col">
         <h2 className="footer-text">Contact</h2>

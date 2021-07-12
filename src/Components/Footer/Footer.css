@@ -3,7 +3,7 @@
 }
 #row-footer {
   background-color: #000000;
-  padding-left: 25%;
+  padding-left: 15%;
 }
 
 @media (max-width: 1100px) {
@@ -31,11 +31,30 @@
   color: rgb(243, 240, 255);
 }
 .footer-sub-content {
+  padding-top: 20px;
+  width: fit-content;
   color: rgb(243, 240, 255);
   font-family: "Poppins", Helvetica, sans-serif;
   font-weight: 600;
   box-shadow: inset 0 -0.1em 0 rgb(131, 222, 255);
   transition: box-shadow 0.7s ease;
+  font-size: 200%;
+}
+
+@media (max-width: 400px) {
+  .footer-sub-content {
+    font-size: 30%;
+  }
+}
+@media (max-width: 800px) {
+  .footer-sub-content {
+    font-size: 150%;
+  }
+}
+@media (max-width: 1200px) {
+  .footer-sub-content {
+    font-size: 100%;
+  }
 }
 
 .footer-sub-heading,

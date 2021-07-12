@@ -1,3 +1,7 @@
+body {
+  background-color: #fff;
+}
+
 .home {
   text-align: center;
   margin: 0;
@@ -20,7 +24,8 @@
   align-items: left;
   width: 30%;
   float: left;
-  padding: 2%;
+  padding: 1%;
+  padding-left: 15%;
 }
 .Logo-SVG {
   height: auto;
@@ -51,11 +56,21 @@ h1 {
   padding-bottom: 60px;
 }
 .companyName {
-  font-family: "Poppins", Helvetica, sans-serif;
-  font-weight: 600;
+  height: auto;
+  width: 45%;
   text-align: center;
   padding-left: 20%;
 }
+
+@media (max-width: 600px) {
+  .companyName {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-left: 20%;
+  }
+}
+
 /* HAMBURGER*/
 #menuToggle {
   display: block;

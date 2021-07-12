@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import "./Home.css";
 import CustomizedAccordions from "../Grid/grid.js";
+
 import About from "../About/About.js";
-import Contact from "../Contact/Contact.js";
+// import Contact from "../Contact/Contact.js";
 import Footer from "../Footer/Footer";
 import Cards from "../Cards/Cards";
 import Clients from "../Clients/Clients";
-import BgVideo from "../../Assets/video.mp4";
+// import BgVideo from "../../Assets/video.mp4";
+import Logo from "../../Assets/logo1.svg";
 import { HashLink } from "react-router-hash-link";
 import Mailchimp from "../Mailchimp/Mailchimp";
 
@@ -48,7 +50,7 @@ class Home extends Component {
             </div>
           </div>
           <div class="float-child-right">
-            <h2 className="companyName">Halcyon</h2>
+            <img src={Logo} alt="logo" className="companyName" />
           </div>
         </div>
 
@@ -62,7 +64,10 @@ class Home extends Component {
         </div>
 
         <video controls autoPlay loop muted>
-          <source src={BgVideo} type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/halcyon-nl/video/upload/v1626002822/Halcyon%20asstets/video_roswwx.mp4"
+            type="video/mp4"
+          />
         </video>
         {/* A grid with two columns is created. Left is a bold text . Right is a collapsing text. Ref And.design components*/}
         <div class="row">
@@ -76,6 +81,7 @@ class Home extends Component {
             <CustomizedAccordions />
           </div>
         </div>
+
         <Clients />
         <section id="About">
           <About />

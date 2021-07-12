@@ -19,6 +19,24 @@
     letter-spacing: 3px;
   }
 }
+@media (max-width: 600px) {
+  .clients-text {
+    font-size: 120%;
+    letter-spacing: 3px;
+  }
+}
+@media (max-width: 800px) {
+  .clients-text {
+    font-size: 100%;
+    letter-spacing: 3px;
+  }
+}
+@media (max-width: 1300px) {
+  .clients-text {
+    font-size: 100%;
+    letter-spacing: 3px;
+  }
+}
 .clients-text {
   color: rgba(124, 124, 124, 0.616);
   -webkit-transition: color 0.25s;

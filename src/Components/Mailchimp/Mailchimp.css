@@ -1,10 +1,20 @@
 #mc_embed_signup {
-  padding: 3%;
+  padding-left: 40%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background: #fff;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
 }
 
+@media (max-width: 600px) {
+  #mc_embed_signup {
+    padding: 20%;
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+  }
+}
 #mce-NAME input {
   display: block;
 }
@@ -20,10 +30,6 @@ ul {
   border: 2px;
   border-color: rgb(0, 0, 0);
   border-radius: 5px;
-}
-
-#mc_embed_signup {
-  padding-left: 40%;
 }
 
 #mc-embedded-subscribe {
